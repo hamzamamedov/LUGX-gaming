@@ -74,6 +74,35 @@ header {
         line-height: 25px;
         letter-spacing: 1px;
       }
+      .btn-search {
+        display: flex;
+        max-width: 400px;
+        border-radius: 50px;
+        overflow: hidden;
+        background-color: white;
+        input {
+          width: 60%;
+          height: 50px;
+          border: none;
+          outline: none;
+          padding:0 25px;
+          background-color: transparent;
+        }
+        button {
+          width: 40%;
+          height: 50px;
+          border: none;
+          outline: none;
+          border-radius: 50px;
+          background-color: rgb(238, 98, 107);
+          color: white;
+          transition: all .3s ease;
+          &:hover{
+            background-color: rgb(0, 0, 255);
+            cursor: pointer;
+          }
+        }
+      }
     }
     .hero-right {
       display: flex;
@@ -108,7 +137,7 @@ header {
           display: flex;
           justify-content: center;
           align-items: center;
-          bottom: 20px;
+          bottom: -20px;
           right: 20px;
         }
       }
